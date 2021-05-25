@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "v11.13.0"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^10.0.0",
