@@ -2,6 +2,9 @@ require('dotenv').config()
 const express = require('express')
 const axios = require('axios')
 const app = express()
+const cors = require('cors')
+
+app.use(cors())
 
 app.get('/', (req, res) => {
     res.status(200).send('Please use /album/:artistId to search for all albums by artist or /song/:albumId to search for all songs by an album id')
