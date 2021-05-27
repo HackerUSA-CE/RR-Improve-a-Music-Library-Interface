@@ -3,6 +3,8 @@ const express = require('express')
 const axios = require('axios')
 const app = express()
 const cors = require('cors')
+// If you're here and you like writing routes, feel free to add some of your own! Get creative with what the itunes API can serve back by visiting their documentation:
+// https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/
 
 app.use(cors())
 
